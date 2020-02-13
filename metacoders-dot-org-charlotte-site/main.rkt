@@ -41,57 +41,425 @@
 (define adventure-mario-description
   (~a "This summer, students will learn how to create their own Mario-themed adventure games! Since its release in 1985, Mario titles have been a huge hit with gamers of all ages. In this camp, students will learn how to code an adventure video game that draws on elements of the Mario franchise, like mushrooms and power-ups, for inspiration! Our camps also go beyond the computer screen, utilizing \"unplugged\" games and social activities to round out the summer camp experience. In addition to leveling up their coding skills, students practice communication, teamwork, problem-solving, and abstract reasoning: indispensable skills for coders -- and humans -- everywhere!"))
 
-#|
 
-  "sku_v1YO1kUTQESbpkOOm2NVRQ"
-  "sku_ggk91EHOTRyrEy2uqgB4kQ"
-  "sku_xes0qvDSjGxpM0nsV6Z2g"
-  "sku_Q13ZCbdT6Gn2PhJcT6qTA"
-  "sku_RDFzMuX1T4WFmXSdIIaOQg"
-  "sku_H5Z0ZBeaTRamtsLuUdmEw"
-  "sku_DbTEU4GgThS9FMgsVgug"
-  "sku_X2Abw3FjS6OXnPOp0LqgA"
-  "sku_ZMKYi19RdeTSa2Qt4T8Kg"
 
-|#
 
-(define/provide-camp summer-camp-zoo-k-2nd-6/8
+(define/provide-camp summer-camp-zoo-k-2nd-6/22
   (camp #:topic         "Adventures in Coding and Zoo Animals"
-        #:sku           "sku_mmK5T7ReTM21Gk9DTRij2Q"
+        #:sku           "sku_v1YO1kUTQESbpkOOm2NVRQ"
         #:video-path    healer-zoo-mp4-path                     
         #:description   healer-zoo-description
         #:grade-range   "Entering K - 2nd"
-        #:location      "University of North Carolina, Charlotte"
-        #:address       "6363 St Charles Ave, New Orleans, LA 70118"
-        #:address-link  "https://goo.gl/maps/rrqihjAviS9QzzTc8"
-        #:price         340
-        #:discount      34
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
         #:check-in-time "8:45am - 9:00am"
         #:camp-time     "9:00am - 1:00pm"
         #:lunch-time    "12:00pm - 1:00pm"
         #:pickup-time   "1:00pm - 1:15pm"
-        #:meeting-dates (list "6/8/2020" "6/9/2020" "6/10/2020" "6/11/2020" "6/12/2020")
+        #:meeting-dates (list "6/22/2020" "6/23/2020" "6/24/2020" "6/25/2020" "6/26/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-cartoon-k-2nd-6/22
+  (camp #:topic         "Adventures in Coding and Cartoons"
+        #:sku           "sku_ggk91EHOTRyrEy2uqgB4kQ"
+        #:video-path    clicker-cartoon-mp4-path                     
+        #:description   clicker-cartoon-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "6/22/2020" "6/23/2020" "6/24/2020" "6/25/2020" "6/26/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-fortnite-3-6th-6/22
+  (camp #:topic         "Coding for Fortnite Fans"
+        #:sku           "sku_xes0qvDSjGxpM0nsV6Z2g"
+        #:video-path    battlearena-fortnite-mp4-path                     
+        #:description   battlearena-fortnite-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "6/22/2020" "6/23/2020" "6/24/2020" "6/25/2020" "6/26/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-harry-3-6th-6/22
+  (camp #:topic         "Coding for Harry Potter Fans"
+        #:sku           "sku_Q13ZCbdT6Gn2PhJcT6qTA"
+        #:video-path    adventure-harrypotter-mp4-path                     
+        #:description   adventure-harrypotter-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "6/22/2020" "6/23/2020" "6/24/2020" "6/25/2020" "6/26/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-farm-k-2nd-6/29
+  (camp #:topic         "Adventures in Coding and Farm Animals"
+        #:sku           "sku_Q13ZCbdT6Gn2PhJcT6qTA"
+        #:video-path    healer-animal-mp4-path                     
+        #:description   healer-animal-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "6/29/2020" "6/30/2020" "7/01/2020" "7/02/2020" "7/03/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-pokemon-k-2nd-6/29
+  (camp #:topic         "Adventures in Coding and Pokemon"
+        #:sku           "sku_RDFzMuX1T4WFmXSdIIaOQg"
+        #:video-path    clicker-pokemon-mp4-path                     
+        #:description   clicker-pokemon-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "6/29/2020" "6/30/2020" "7/01/2020" "7/02/2020" "7/03/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-minecraft-3rd-6th-6/29
+  (camp #:topic         "Coding for Minecraft Fans"
+        #:sku           "sku_H5Z0ZBeaTRamtsLuUdmEw"
+        #:video-path    survival-minecraft-mp4-path                     
+        #:description   survival-minecraft-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "6/29/2020" "6/30/2020" "7/01/2020" "7/02/2020" "7/03/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-marvel-3rd-6th-6/29
+  (camp #:topic         "Coding for Marvel Fans"
+        #:sku           "sku_DbTEU4GgThS9FMgsVgug"
+        #:video-path    battlearena-avengers-mp4-path                     
+        #:description   battlearena-avengers-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "6/29/2020" "6/30/2020" "7/01/2020" "7/02/2020" "7/03/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-cartoon-k-2nd-7/6 
+  (camp #:topic         "Adventures in Coding and Cartoons"
+        #:sku           "sku_X2Abw3FjS6OXnPOp0LqgA"
+        #:video-path    clicker-cartoon-mp4-path                     
+        #:description   clicker-cartoon-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "7/6/2020" "7/7/2020" "7/8/2020" "7/9/2020" "7/10/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-zoo-k-2nd-7/6
+  (camp #:topic         "Adventures in Coding and Zoo Animals"
+        #:sku           "sku_ZMKYi19RdeTSa2Qt4T8Kg"
+        #:video-path    healer-zoo-mp4-path                     
+        #:description   healer-zoo-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "7/6/2020" "7/7/2020" "7/8/2020" "7/9/2020" "7/10/2020")
+        #:status         'open
+        ))
+
+
+(define/provide-camp summer-camp-starwars-3rd-6th-7/6
+  (camp #:topic         "Coding for Star Wars Fans"
+        #:sku           "sku_1JRfFbMdTVasvJPSfjm4VQ"
+        #:video-path    battlearena-starwars-mp4-path                     
+        #:description   battlearena-starwars-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "7/6/2020" "7/7/2020" "7/8/2020" "7/9/2020" "7/10/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-pokemon-3-6th-7/6
+  (camp #:topic         "Coding for Pokemon Fans"
+        #:sku           "sku_MDSuKXiS2eZbz3NPXyeg"
+        #:video-path    survival-pokemon-mp4-path                     
+        #:description   survival-pokemon-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "7/6/2020" "7/7/2020" "7/8/2020" "7/9/2020" "7/10/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-pokemon-k-2nd-7/13 
+  (camp #:topic         "Adventures in Coding and Pokemon"
+        #:sku           "sku_CPMLLEtVTfSGnDTz8KOQg"
+        #:video-path    clicker-pokemon-mp4-path                      
+        #:description   clicker-pokemon-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "7/13/2020" "7/14/2020" "7/15/2020" "7/16/2020" "7/17/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-farm-k-2nd-7/13 
+  (camp #:topic         "Adventures in Coding and Farm Animals"
+        #:sku           "sku_3TZs7V4CQ7uV09UzlCP9SQ"
+        #:video-path    healer-animal-mp4-path                     
+        #:description   healer-animal-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "7/13/2020" "7/14/2020" "7/15/2020" "7/16/2020" "7/17/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-mario-3-6th-7/13
+  (camp #:topic         "Coding for Mario Fans"
+        #:sku           "sku_Ngm1OvXfSJ6GdN3FlfkxOg"
+        #:video-path    adventure-mario-mp4-path                      
+        #:description   adventure-mario-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "7/13/2020" "7/14/2020" "7/15/2020" "7/16/2020" "7/17/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-fortnite-3-6th-7/13
+  (camp #:topic         "Coding for Fortnite Fans"
+        #:sku           "sku_mQ66PnDHRiOyYHe0Tt7Aw"
+        #:video-path    battlearena-fortnite-mp4-path                     
+        #:description   battlearena-fortnite-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "7/13/2020" "7/14/2020" "7/15/2020" "7/16/2020" "7/17/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-zoo-k-2nd-7/20
+  (camp #:topic         "Adventures in Coding and Zoo Animals"
+        #:sku           "sku_4esUPZxzRWecOtlinkga9w"
+        #:video-path    healer-zoo-mp4-path                     
+        #:description   healer-zoo-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "7/20/2020" "7/21/2020" "7/22/2020" "7/23/2020" "7/24/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-cartoon-k-2nd-7/20
+  (camp #:topic         "Adventures in Coding and Cartoons"
+        #:sku           "sku_sR3iQlNYQoS15CcUcug02g"
+        #:video-path    clicker-cartoon-mp4-path                     
+        #:description   clicker-cartoon-description
+        #:grade-range   "Entering K - 2nd"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "7/20/2020" "7/21/2020" "7/22/2020" "7/23/2020" "7/24/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-harrypotter-3-6th-7/20
+  (camp #:topic         "Coding for Harry Potter Fans"
+        #:sku           "sku_6vlbBnaJQbqHK6GiNiUpBw"
+        #:video-path    adventure-harrypotter-mp4-path                     
+        #:description   adventure-harrypotter-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         320
+        #:discount      32
+        #:check-in-time "8:45am - 9:00am"
+        #:camp-time     "9:00am - 1:00pm"
+        #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "1:00pm - 1:15pm"
+        #:meeting-dates (list "7/20/2020" "7/21/2020" "7/22/2020" "7/23/2020" "7/24/2020")
+        #:status         'open
+        ))
+
+(define/provide-camp summer-camp-minecraft-3-6th-7/20
+  (camp #:topic         "Coding for Minecraft Fans"
+        #:sku           "sku_EWMpJGZbSWyhscQ9cvj1w"
+        #:video-path    survival-minecraft-mp4-path                     
+        #:description   survival-minecraft-description
+        #:grade-range   "Entering 3rd - 6th"
+        #:location      "University of North Carolina Charlotte"
+        #:address       "9201 University City Blvd, Charlotte, NC 28223"
+        #:address-link  "https://goo.gl/maps/TTW1oAhgfTp3vqMr8"
+        #:price         245
+        #:discount      24.50
+        #:check-in-time "12:45pm - 1:00pm"
+        #:camp-time     "1:00pm - 4:00pm"
+       ; #:lunch-time    "12:00pm - 1:00pm"
+        #:pickup-time   "4:00pm - 4:15pm"
+        #:meeting-dates (list "7/20/2020" "7/21/2020" "7/22/2020" "7/23/2020" "7/24/2020")
         #:status         'open
         ))
 
 (define (index)
   (page index.html
         (city-page
-         #:city-name "Charlotte, NC"
-         #:banner-url (prefix/pathify dallas-banner-path)
+         #:city-name "New Orleans, LA"
+         #:banner-url (prefix/pathify new-orleans-banner-path)
+         #:alt-tag "City of New Orleans, Louisiana with busy streets and trolley"
          ;#:school-year-courses (list weekly-class-k-2nd-winter)
-        #| #:summer-camps (list summer-camp-zoo-k-2nd-6/8
-                              
-                              )
-         #:camp-pricing (summer-camp-pricing-at #:location "TBA"
+         #:summer-camps (list summer-camp-zoo-k-2nd-6/22
+                              summer-camp-cartoon-k-2nd-6/22
+                              summer-camp-fortnite-3-6th-6/22
+                              summer-camp-harry-3-6th-6/22
+                              summer-camp-farm-k-2nd-6/29
+                              summer-camp-pokemon-k-2nd-6/29
+                              summer-camp-minecraft-3rd-6th-6/29
+                              summer-camp-marvel-3rd-6th-6/29
+                              summer-camp-cartoon-k-2nd-7/6
+                              summer-camp-zoo-k-2nd-7/6
+                              summer-camp-starwars-3rd-6th-7/6
+                              summer-camp-pokemon-3-6th-7/6
+                              summer-camp-pokemon-k-2nd-7/13
+                              summer-camp-farm-k-2nd-7/13
+                              summer-camp-mario-3-6th-7/13
+                              summer-camp-fortnite-3-6th-7/13
+                              summer-camp-zoo-k-2nd-7/20
+                              summer-camp-cartoon-k-2nd-7/20
+                              summer-camp-harrypotter-3-6th-7/20
+                              summer-camp-minecraft-3-6th-7/20)
+         #:camp-pricing (summer-camp-pricing-at #:location "Loyola University New Orleans"
                                                 #:am-camp-time "9am - 1pm"
                                                 #:pm-camp-time "1pm - 4pm"
                                                 #:full-day-time "9am - 4pm"
-                                                #:am-price "370"
-                                                #:pm-price "290"
-                                                #:full-day-price "594") |#
+                                                #:am-price "320"
+                                                #:pm-price "245"
+                                                #:full-day-price "514.60")
          )))
-
 
 (define (pages)
   (list
