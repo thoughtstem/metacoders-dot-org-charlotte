@@ -122,7 +122,7 @@
 
 (define/provide-camp summer-camp-farm-k-2nd-6/29
   (camp #:topic         "Adventures in Coding and Farm Animals"
-        #:sku           "sku_Q13ZCbdT6Gn2PhJcT6qTA"
+        #:sku           "sku_fLHfV3JJQny8Mgh2rzd5lg"
         #:video-path    healer-animal-mp4-path                     
         #:description   healer-animal-description
         #:grade-range   "Entering K - 2nd"
