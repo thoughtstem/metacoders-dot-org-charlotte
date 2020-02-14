@@ -428,9 +428,9 @@
 (define (index)
   (page index.html
         (city-page
-         #:city-name "New Orleans, LA"
-         #:banner-url (prefix/pathify new-orleans-banner-path)
-         #:alt-tag "City of New Orleans, Louisiana with busy streets and trolley"
+         #:city-name "Charlotte, NC"
+         #:banner-url (prefix/pathify charlotte-banner-path)
+         #:alt-tag "City of Charlotte, North Carolina with green trees and blue sky"
          ;#:school-year-courses (list weekly-class-k-2nd-winter)
          #:summer-camps (list summer-camp-zoo-k-2nd-6/22
                               summer-camp-cartoon-k-2nd-6/22
@@ -452,7 +452,7 @@
                               summer-camp-cartoon-k-2nd-7/20
                               summer-camp-harrypotter-3-6th-7/20
                               summer-camp-minecraft-3-6th-7/20)
-         #:camp-pricing (summer-camp-pricing-at #:location "Loyola University New Orleans"
+         #:camp-pricing (summer-camp-pricing-at #:location "University of North Carolina Charlotte"
                                                 #:am-camp-time "9am - 1pm"
                                                 #:pm-camp-time "1pm - 4pm"
                                                 #:full-day-time "9am - 4pm"
